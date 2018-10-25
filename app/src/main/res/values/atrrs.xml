@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--topbar-->
+    <declare-styleable name="TopTitleBar">
+        <attr name="isShowsearchView" format="boolean"/>
+        <attr name="focusable" format="boolean"/>
+        <attr name="focusableInTouchMode" format="boolean"/>
+        <attr name="isShowRadioGroup" format="boolean"/>
+        <attr name="RB1_text" format="string"/>
+        <attr name="RB2_text" format="string"/>
+        <attr name="RB3_text" format="string"/>
+        <attr name="RB4_text" format="string"/>
+        <attr name="RB_textSize" format="integer"/>
+        <attr name="title_background_color" format="color"/>
+    </declare-styleable>
+
+        <!--悬浮按钮-->
+    <declare-styleable name="FloatButton_style">
+        <!--两个按钮间的间距-->
+        <attr name="fab_spacing" format="dimension" />
+        <!--展开的方向-->
+        <attr name="fab_orientation" format="enum">
+            <enum name="top" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="left" value="3" />
+            <enum name="right" value="4" />
+        </attr>
+    </declare-styleable>
+    
+    
+    <!--bottombar-->
+    <declare-styleable name="Tarbar">
+    </declare-styleable>
+<!--九宫格-->
+   <!-- <declare-styleable name="RatioImageView">
+        <attr name="ratio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="NineGridLayout">
+        <attr name="sapcing" format="dimension"/>
+    </declare-styleable>-->
+<!---->
+    <declare-styleable name="RatioImageView2">
+        <attr name="ratio" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="NineGridLayout2">
+        <attr name="sapcing2" format="dimension"/>
+        <attr name="oneImageWidth2" format="dimension"/>
+        <attr name="oneImageHeight2" format="dimension"/>
+        <attr name="image_ratio2" format="float"/>
+    </declare-styleable>
+</resources>

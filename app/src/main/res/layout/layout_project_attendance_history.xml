@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-03-28"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/process"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="访问进度  (51/100)"
+            android:layout_toRightOf="@+id/date"
+            android:textColor="#00b472"
+            android:padding="10dp"/>
+        <RelativeLayout
+            android:id="@+id/come"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date">
+            <TextView
+                android:id="@+id/startTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="进店打卡时间:"
+                />
+            <TextView
+                android:id="@+id/comeon"
+                android:layout_toRightOf="@+id/startTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:32"
+                android:padding="10dp" />
+            <ImageView
+                android:id="@+id/startStatus"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/kaoqinz"
+                android:layout_toRightOf="@+id/comeon"
+                android:layout_alignBottom="@+id/comeon"
+                />
+            <LinearLayout
+                android:id="@+id/companyAdress"
+                android:layout_below="@+id/comeon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_below="@+id/comeon"
+                    android:src="@drawable/home_company"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/startAdress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="湖北省武汉市北岸区竹叶山中环商贸城C9-11"
+                    android:layout_alignTop="@+id/adressIcon"
+                    android:layout_toRightOf="@+id/adressIcon"
+                    android:layout_marginLeft="10dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/come"
+            >
+            <TextView
+                android:id="@+id/endTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="离店打卡时间:"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/back"
+                android:layout_toRightOf="@+id/endTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09:00"
+                android:padding="10dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                />
+
+            <ImageView
+                android:id="@+id/endStatus"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+               android:src="@drawable/kaoqinz"
+                android:layout_toRightOf="@+id/back"
+                android:layout_alignBottom="@+id/back"
+                />
+            <LinearLayout
+                android:id="@+id/leave"
+                android:layout_below="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/adressIconBack"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/home_company"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/adressBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="湖北省武汉市北岸区竹叶山中环商贸城C9-11"
+                    android:layout_alignTop="@+id/adressIconBack"
+                    android:layout_toRightOf="@+id/adressIconBack"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/endInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="考勤备注:"
+                android:paddingLeft="20dp"
+                android:padding="10dp"
+                android:layout_below="@+id/leave"
+                />
+            <TextView
+                android:id="@+id/endMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/leave"
+                android:layout_toRightOf="@+id/endInfo"
+                android:paddingLeft="20dp"
+                android:padding="10dp"
+                android:text="打卡时间异常原因是因为什么什么什么什么什么什么什么什么什么什么什么什么什么什么什么什么什么什么什么什么什么什么"
+                />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

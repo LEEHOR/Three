@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--数据库名-->
+    <dbname value="SiRui"></dbname>
+    <!--数据库版本号-->
+    <version value="34"></version>
+    <!--映射模型，稍后用到-->
+    <list>
+        <mapping class="net.coahr.three3.three.DBbase.UsersDB"></mapping>
+           <mapping class="net.coahr.three3.three.DBbase.SubjectsDB"></mapping>
+              <mapping class="net.coahr.three3.three.DBbase.ProjectsDB"></mapping>
+                 <mapping class="net.coahr.three3.three.DBbase.ImagesDB"></mapping>
+                    <mapping class="net.coahr.three3.three.DBbase.RecorderFilesDB"></mapping>
+                      <mapping class="net.coahr.three3.three.DBbase.SearchDataDB"></mapping>
+                          <mapping class="net.coahr.three3.three.DBbase.AnswersDB"></mapping>
+
+    </list>
+</litepal>

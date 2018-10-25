@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#3e4048">
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:lines="1"
+            android:singleLine="true"
+            android:background="@drawable/search_edittext_shape"
+            android:paddingRight="10dp"
+            />
+        <RadioGroup
+            android:id="@+id/rg_verify"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_below="@+id/search">
+
+            <RadioButton
+                android:id="@+id/verify_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="审核未通过"
+                android:textAlignment="center"
+                android:textColor="@drawable/radiogroup_textcolor"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                />
+            <RadioButton
+                android:id="@+id/verify_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="审核通过"
+                android:textAlignment="center"
+                android:textColor="@drawable/radiogroup_textcolor"
+                android:layout_weight="1"
+                android:button="@null"
+                />
+
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg_verify"
+            android:weightSum="1.0"
+            android:layout_marginBottom="1dp"
+            >
+            <View
+                android:id="@+id/line_left"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight=".5"
+                android:background="#ffffff"
+                />
+            <View
+                android:id="@+id/line_right"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight=".5"
+                android:background="#999999"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:background="#f5f5f5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGary">#a0000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorbg">#999999</color>
+
+
+    <!--首页颜色值-->
+    <color name="titleBar">#3e4048</color>
+    <color name="top_radio_check">#ffffff</color>
+    <color name="top_radio_uncheck">#999999</color>
+    <color name="bottom_radio_bg">#ffffff</color>
+    <color name="schedule">#00609f</color>
+    <color name="date">#999999</color>
+    <color name="topLine">#f5f5f5</color>
+    <color name="title">#333333</color>
+    <color name="centerTxt">#666666</color>
+    <color name="uncomplete">#ff8878</color>
+    <color name="unstart">#65cc00</color>
+    <color name="unlocationTxt">#2d7dd2</color>
+    <color name="unlocation">#e2ebf5</color>
+    <color name="home_bg">#f6f6f6</color>
+    <!--首页弹窗-->
+    <color name="font_common_1">#424242</color>
+    <color name="font_green">#00cccc</color>
+    <color name="commom_background">#f3f3f3</color>
+    <!--相机-->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="proInfo">#e5e5e5</color>
+    <color name="text_bottomline">#1075d4</color>
+    <color name="touming">#00FFFFFF</color>
+</resources>

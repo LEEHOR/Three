@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/project_start_subjectTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="1.[禁止类][][]有非我司产品宣传及形象资料.和的撒会四大书院的撒大江户时代hi所毒杀厚度户数撒和杜萨狠毒啊是的撒华盛顿i皇帝萨蒂哈斯哦的撒大和iOS的hi萨蒂哦吉萨家都i阿三及大赛的静安寺大奖赛和山地赛段炯撒打沙袋那家伙大师的后世的" />
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:id="@+id/project_Line_yes"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center">
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageButton
+                            android:id="@+id/project_image_select1"
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="35dp"
+                            android:background="@drawable/icon_image_un_select"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/project_tv_select1"
+                            android:layout_toRightOf="@+id/project_image_select1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="是"/>
+                    </RelativeLayout>
+                    </LinearLayout>
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/proInfo"/>
+                        <LinearLayout
+                            android:id="@+id/project_Line_no"
+                            android:layout_marginBottom="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center">
+                            <RelativeLayout
+                                android:layout_gravity="center"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <ImageButton
+                                    android:id="@+id/project_image_select2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_marginLeft="35dp"
+                                    android:background="@drawable/icon_image_un_select"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:id="@+id/project_tv_select2"
+                                    android:layout_toRightOf="@+id/project_image_select2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="是"/>
+                            </RelativeLayout>
+
+                        </LinearLayout>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--  2   -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/proInfo"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    <TextView
+                        android:gravity="center"
+                       android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_alignParentStart="true"
+                        android:text="问题说明:"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/project_start_Lineaexplain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    >
+                    <TextView
+                        android:id="@+id/project_start_explain"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="dsadadgysdashduisahduisahduisahudhasdhsaudhusahdsahdusahduisahdushadusahdusahdusahdsauhdusahdhasudhasudsahduashdioasuhdusahdusahdushdhsadsaudhua"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--33-->
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_gravity="center"  >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/proInfo"/>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:background="@color/white"
+                   android:layout_gravity="center"
+                   android:orientation="vertical">
+            <RelativeLayout
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              >
+                <TextView
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="访问员说明:" />
+                <ImageView
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/project_show_userinstruction"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/all"/>
+            </RelativeLayout>
+
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="1dp"
+                       android:background="@color/proInfo"
+                       android:layout_marginBottom="5dp"/>
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginBottom="10dp"
+                   android:background="@color/white"
+                   android:orientation="horizontal"
+                   >
+
+                       <RelativeLayout
+                           android:layout_width="match_parent"
+                           android:background="@color/topLine"
+                           android:layout_height="wrap_content">
+                           <TextView
+                               android:id="@+id/project_start_userinstruction"
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:lines="3"
+                               android:paddingLeft="5dp"
+                               android:paddingRight="5dp"
+                               android:paddingTop="5dp"
+                               android:paddingEnd="5dp"
+                               android:textSize="12sp"
+                               android:text="dsasdd"
+                               />
+                       </RelativeLayout>
+               </LinearLayout>
+               <View
+                   android:layout_width="match_parent"
+                   android:layout_height="1dp"
+                   android:background="#c4c4c4" />
+           </LinearLayout>
+
+            <!--录音-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/project_player_Linea"
+                    android:visibility="visible"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/ic_record_image" />
+                </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="5dp"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+                        <SeekBar
+                            android:id="@+id/projectStartAdapter_seekBar"
+                            android:layout_gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:thumb="@drawable/play"
+                            android:secondaryProgressTint="#00c4c4"
+                            android:progressTint="#00ff00"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/project_recorderTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textSize="10dp"
+                            android:text="00:00:00"/>
+                        <TextView
+                            android:id="@+id/project_Duration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="10dp"
+                            android:text="/00:00"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/project_playrecord"
+                            android:layout_marginStart="5dp"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/start"/>
+                    </LinearLayout>
+                </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+
+
+               <LinearLayout
+                   android:visibility="visible"
+                   android:layout_gravity="center"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal">
+                   <View
+                       android:layout_gravity="center"
+                       android:layout_width="1dp"
+                       android:layout_height="match_parent"
+                       android:layout_marginStart="10dp"
+                       android:background="#c4c4c4"/>
+                   <LinearLayout
+                       android:id="@+id/project_recorder_Linea"
+                       android:visibility="visible"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+
+                   <ImageView
+                       android:id="@+id/start_recorder"
+                       android:layout_gravity="center"
+                       android:layout_width="20dp"
+                       android:layout_height="20dp"
+                       android:src="@drawable/start"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginRight="15dp"/>
+                   <TextView
+                       android:id="@+id/start_recorder_time"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:layout_marginEnd="5dp"
+                       android:text="00:00:00"
+                       android:textSize="10dp" />
+                   </LinearLayout>
+               </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--图片-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+               >
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#c4c4c4" />
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RelativeLayout
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/control_NineLinearLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp">
+
+                        <ImageView
+                            android:id="@+id/project_start_sources"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_marginStart="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/images" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/all" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#c4c4c4" />
+            </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/NineLinearLayout"
+                    android:gravity="center"
+                    android:visibility="visible"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                   >
+                    <net.coahr.three3.three.customView.NineView
+                        android:id="@+id/project_start_NineView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        app:oneImageWidth2="100dp"
+                        app:oneImageHeight2="100dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

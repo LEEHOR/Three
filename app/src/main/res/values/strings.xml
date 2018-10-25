@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">THREE</string>
+
+    <!--toptitle-->
+    <string name="RadioButton1">新项目</string>
+    <string name="RadioButton2">已完成</string>
+    <string name="RadioButton3">未完成</string>
+    <string name="RadioButton4">全部</string>
+    <!--fragment text-->
+    <string name="HomeText1">开始时间</string>
+    <string name="HomeText2">结束时间</string>
+    <string name="HomeText3">距离</string>
+    <string name="ReviseTitle">修改中(%1$d/%2$d)</string>
+    <string name="browseTitle">浏览中(%1$d/%2$d)</string>
+    <string name="ProjectStartTitle">访问中(%1$d/%2$d)</string>
+
+    <!--图片选择器-->
+    <string name="image">图片</string>
+    <string name="confirm">确定</string>
+    <string name="preview">预览</string>
+    <string name="select">选择</string>
+    <!--相机-->
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_permission">你需要允许相机权限</string>
+
+    <!--Popuwindows1-->
+    <string name="subjectsList">题目列表</string>
+    <string name="singleRcorder">单体录音</string>
+    <string name="allRcorder">全局录音</string>
+    <string name="stopRecorder">停止录音</string>
+
+    <!--Popuwindows2-->
+    <string name="subjectsList_2">题目列表</string>
+    <string name="singleRcorder_2">单体录音</string>
+    <string name="allRcorder_2">全局录音</string>
+    <string name="stopRecorder_2">暂停录音</string>
+
+    <!--Popuwindows3-->
+    <string name="subjectsList_3">题目列表</string>
+    <string name="singleRcorder_3">单体录音</string>
+    <string name="allRcorder_3">全局继续</string>
+    <string name="stopRecorder_3">暂停录音</string>
+</resources>

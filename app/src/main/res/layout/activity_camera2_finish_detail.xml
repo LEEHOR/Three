@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <ImageView
+        android:src="@color/topLine"
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"/>
+     <FrameLayout
+         android:layout_marginTop="10dp"
+         android:layout_alignParentTop="true"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <ImageView
+                 android:id="@+id/camera2_reback"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginStart="10dp"
+                 android:background="@android:color/transparent"
+                 android:src="@drawable/ic_camera2_back"
+                 android:layout_width="30dp"
+                 android:layout_height="30dp" />
+       <ImageView
+           android:id="@+id/camera2_load"
+             android:layout_toLeftOf="@+id/camera2_retake"
+             android:layout_toStartOf="@+id/camera2_retake"
+             android:layout_marginRight="15dp"
+             android:layout_marginEnd="15dp"
+             android:src="@drawable/ic_camera2_load"
+             android:layout_width="30dp"
+             android:layout_height="30dp" />
+         <ImageView
+             android:id="@+id/camera2_retake"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentEnd="true"
+             android:layout_marginRight="10dp"
+             android:layout_marginEnd="10dp"
+             android:src="@drawable/ic_camera2_retake"
+             android:layout_width="30dp"
+             android:layout_height="30dp" />
+         </RelativeLayout>
+     </FrameLayout>
+
+<FrameLayout
+    android:layout_centerVertical="true"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <Button
+        android:id="@+id/camera2_save_next"
+        android:background="#0977de"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="34dp"
+        android:textColor="#fff"
+        android:text="保存并拍摄下一张"/>
+</FrameLayout>
+
+</RelativeLayout>

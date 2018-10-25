@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.andsync.xpermission:XPermissionUtils-1.3">
+    <CLASSES>
+      <root url="jar://D:/.AndroidStudio3.1/caches/transforms-1/files-1.1/XPermissionUtils-1.3.aar/fdf7750ce02a366868c2cadca847a8a3/jars/classes.jar!/" />
+      <root url="file://D:/.AndroidStudio3.1/caches/transforms-1/files-1.1/XPermissionUtils-1.3.aar/fdf7750ce02a366868c2cadca847a8a3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/.AndroidStudio3.1/caches/modules-2/files-2.1/com.andsync.xpermission/XPermissionUtils/1.3/ece9f5a4e5add9da24303e08d64d3bc26d829fdb/XPermissionUtils-1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

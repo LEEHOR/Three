@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.alex.alexswitch:alexswitch-1.1.2">
+    <CLASSES>
+      <root url="file://D:/.AndroidStudio3.1/caches/transforms-1/files-1.1/alexswitch-1.1.2.aar/7f95819b716674ca255c04492b318d81/res" />
+      <root url="jar://D:/.AndroidStudio3.1/caches/transforms-1/files-1.1/alexswitch-1.1.2.aar/7f95819b716674ca255c04492b318d81/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/.AndroidStudio3.1/caches/modules-2/files-2.1/com.alex.alexswitch/alexswitch/1.1.2/a627eceaab39be15f47de178cf7366ada332f5a1/alexswitch-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

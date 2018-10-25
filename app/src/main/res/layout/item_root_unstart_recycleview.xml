@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="160dp">
+    <android.support.v7.widget.CardView
+        android:layout_centerHorizontal="true"
+        app:cardPreventCornerOverlap="true"
+        android:layout_width="330dp"
+        android:layout_height="160dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="@color/colorWhite">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/home_item_top"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/rootComplete_schedule"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/item_root_recycleviewtextviewshape"
+                    android:gravity="center"
+                    android:text="51/100"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/rootComplete_explain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/rootComplete_schedule"
+                    android:textColor="@color/schedule"
+                    tool:text="[明访，需全程录音]"
+                    android:textSize="12dp"/>
+
+                <TextView
+                    android:id="@+id/rootComplete_startDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rootComplete_explain"
+
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/rootComplete_schedule"
+                    android:gravity="center"
+                    android:textColor="@color/date"
+                    tool:text="2018/3/2"
+                    android:textSize="12dp"/>
+
+                <TextView
+                    android:id="@+id/rootComplete_dateline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rootComplete_explain"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/rootComplete_startDate"
+                    android:gravity="center"
+                    android:text="  —  "
+                    android:textColor="@color/date"
+                    android:textSize="12dp"/>
+
+                <TextView
+                    android:id="@+id/rootComplete_endDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rootComplete_explain"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/rootComplete_dateline"
+                    android:textColor="@color/date"
+                    tool:text="2018/4/3"
+                    android:textSize="12dp"/>
+                <ImageView
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/home_new" />
+                <View
+                   android:layout_alignParentBottom="true"
+                    android:layout_width="310dp"
+                    android:layout_height="1dp"
+                    android:background="@color/topLine" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <!--中部-->
+        <LinearLayout
+            android:id="@+id/home_item_center"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/home_item_top">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/rootComplete_projectLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/rootComplete_projectNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/title"
+                        android:textSize="9dp"
+                        android:textStyle="bold"
+                        tool:text="[201574155]" />
+                    <TextView
+                        android:id="@+id/rootComplete_projectTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textColor="@color/title"
+                        tool:text="hahahahahaahahhahhaahahahahhahahah"
+                        android:textSize="16dp"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/rootComplete_projectlineC"
+                    android:layout_below="@+id/rootComplete_projectLine"
+                    android:orientation="horizontal"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/home_company" />
+                    <TextView
+                        android:id="@+id/rootComplete_storeName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginStart="5dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="@color/centerTxt"
+                        tool:text="武汉仁和置业有限公司觉得是多久啊上帝啊啥都拒绝"
+                        android:textSize="11dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_below="@+id/rootComplete_projectlineC"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/home_site" />
+                    <TextView
+                        android:id="@+id/rootComplete_local"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:textColor="@color/centerTxt"
+                        tool:text="湖北省武汉市北岸区竹叶山中环商贸城C9-11"
+                        android:textSize="11dp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="310dp"
+                    android:layout_height="1dp"
+                    android:background="@color/topLine" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <!--底部-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/home_item_center">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp">
+                    <TextView
+                        android:id="@+id/rootComplete_bottomDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        tool:text="2018-3-12" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="更新"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="数据"
+                        android:textColor="@color/uncomplete"
+                        android:textSize="20px" />
+
+                    <TextView
+                        android:id="@+id/rootComplete_countData"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/uncomplete"
+                        android:textSize="20px"
+
+                        tool:text="51" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="条，附件"
+                        android:textColor="@color/uncomplete"
+                        android:textSize="20px" />
+
+                    <TextView
+                        android:id="@+id/rootComplete_countAttchments"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/uncomplete"
+                        android:textSize="20px"
+                        tool:text="9" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="个未上传"
+                        android:textColor="@color/uncomplete"
+                        android:textSize="20px" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="附件数据上传完毕"
+                    android:textSize="20px"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="点击下载查看项目信息"
+                    android:textColor="@color/unlocationTxt"
+                    android:textSize="20px"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="暂无附件数据上传"
+                        android:textColor="@color/unstart"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

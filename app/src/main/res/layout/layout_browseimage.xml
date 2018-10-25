@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/browseSubjectImages_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/browseDelete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+       android:background="@drawable/ic_capture_delete"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/browseBack"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/back"
+        android:clickable="true"
+        android:layout_alignParentRight="false"
+        />
+
+</RelativeLayout>
+
+
+</FrameLayout>

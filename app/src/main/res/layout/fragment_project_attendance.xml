@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp">
+
+
+        <TextView
+            android:id="@+id/projectName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="SWM斯威汽车形象点运营检核"
+            android:textSize="15sp"
+            android:textColor="#333"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/zhouqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="访问周期:"
+            android:textColor="#666"
+            android:paddingBottom="5dp"
+            android:layout_below="@+id/projectName"
+            android:paddingLeft="15dp"/>
+        <TextView
+            android:id="@+id/riqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/projectName"
+            android:layout_toRightOf="@+id/zhouqi"
+            android:paddingLeft="15dp"
+            android:paddingBottom="5dp"
+            android:text="2018-04-02 - 2018-04-02" />
+        <TextView
+            android:id="@+id/daima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="经销商代码:"
+            android:layout_below="@+id/riqi"
+            android:paddingLeft="15dp"
+            android:paddingBottom="10dp"
+
+            />
+        <TextView
+            android:id="@+id/code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/riqi"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_toRightOf="@+id/daima"
+            android:text="11.43002" />
+        <LinearLayout
+            android:id="@+id/company"
+            android:paddingLeft="15dp"
+            android:layout_below="@+id/code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/companyIcon"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/company"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/companyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/code"
+                android:layout_marginLeft="10dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#999"
+                android:textSize="12dp"
+                android:layout_toRightOf="@+id/companyIcon"
+                android:text="无" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/companyAdress"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/adressIcon"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+               android:layout_marginLeft="10dp"
+                android:src="@drawable/site"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/companyIcon"
+                android:layout_marginLeft="10dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#999"
+                android:textSize="12dp"
+                android:layout_toRightOf="@+id/adressIcon"
+                android:text="无" />
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/companyAdress"
+            android:layout_margin="10dp"
+            android:background="#f5f5f5" />
+
+    </RelativeLayout>
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:paddingBottom="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#333"
+            android:layout_marginLeft="15dp"
+            android:text="开始时间:"/>
+        <TextView
+            android:id="@+id/startTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/time"
+            android:text="09:00"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#333"
+            />
+        <RelativeLayout
+            android:id="@+id/startBlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startTime"
+            android:layout_marginLeft="15dp"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/start1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="#999"
+                android:text="打卡时间:"
+                />
+            <TextView
+                android:id="@+id/start"
+                android:layout_toRightOf="@+id/start1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:32"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="#999"
+                />
+            <ImageView
+                android:id="@+id/startStatus"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:layout_toRightOf="@+id/start"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/kaoqinz"
+                />
+            <LinearLayout
+                android:layout_below="@+id/start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/adressIcon1"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/site"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+
+
+                    />
+                <TextView
+                    android:id="@+id/attendanceAdress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="无"
+                    android:layout_alignTop="@+id/adressIcon1"
+                    android:layout_toRightOf="@+id/adressIcon1"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#999"
+                    />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/endArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startBlock"
+            android:visibility="gone"
+            >
+            <TextView
+                android:id="@+id/endLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:textColor="#333"
+                android:layout_marginLeft="15dp"
+                android:text="结束时间:"
+                />
+            <TextView
+                android:id="@+id/endTime"
+                android:layout_toRightOf="@+id/endLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09:00"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+                android:textColor="#333"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/endInfoBlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/endArea"
+            android:layout_marginLeft="15dp"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/endAttendance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="#999"
+                android:text="打卡时间:"
+                />
+            <TextView
+                android:id="@+id/endTimes"
+                android:layout_toRightOf="@+id/endAttendance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:32"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="#999"
+                />
+            <ImageView
+                android:id="@+id/endStatus"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:layout_toRightOf="@+id/endTimes"
+                android:src="@drawable/kaoqinz"
+                android:layout_marginTop="5dp"
+                />
+            <LinearLayout
+                android:id="@+id/endBlock"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/endTimes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/site"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+
+                    />
+                <TextView
+                    android:id="@+id/endAttendanceAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="无"
+                    android:layout_alignTop="@+id/adressIcon"
+                    android:layout_toRightOf="@+id/adressIcon"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#999"
+                    />
+
+            </LinearLayout>
+            <Button
+                android:gravity="center"
+                android:id="@+id/remark"
+                android:layout_width="60dp"
+                android:layout_height="34dp"
+                android:text="备注"
+                android:background="#fff"
+                android:textSize="10sp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/endBlock"
+                android:visibility="gone"
+                />
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+           >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <net.coahr.three3.three.customView.AttendanceView
+                    android:id="@+id/attendance"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/attendance_state"
+                    android:text="结束打卡"
+                    android:textStyle="bold"
+                    android:paddingBottom="10dp"
+                    app:inCircle="false"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:id="@+id/timeLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20:03:10"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    />
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/range"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="无法定位:"
+                    android:textSize="12sp"
+
+
+                    />
+                <TextView
+                    android:id="@+id/adressTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="正在定位..."
+                    android:textSize="12dp"
+
+                    />
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/attendance_re"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="重新去定位"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_bottomline"/>
+                <View
+                    android:layout_marginTop="3dp"
+                    android:background="@color/text_bottomline"
+                    android:layout_width="60dp"
+                    android:layout_height="1dp"/>
+            </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    </LinearLayout>
+ </ScrollView>
+</LinearLayout>

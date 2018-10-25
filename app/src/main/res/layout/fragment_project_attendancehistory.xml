@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="30dp"
+        >
+
+
+        <TextView
+            android:id="@+id/shopName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SWM斯威汽车形象点运营检核"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="访问周期:"
+            android:layout_below="@+id/shopName"
+            android:layout_marginTop="10dp"
+            android:textColor="#666"
+            />
+        <TextView
+            android:id="@+id/riqi"
+            android:layout_toRightOf="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 2018-04-02 - 2018-04-02"
+            android:layout_below="@+id/shopName"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#666"
+            />
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="经销商代码:"
+            android:layout_below="@+id/riqi"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#666"
+            />
+        <TextView
+            android:id="@+id/code"
+            android:layout_toRightOf="@+id/shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11.43002"
+           android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/riqi"
+            android:textColor="#666"
+            android:layout_marginLeft="15dp"
+            />
+        <LinearLayout
+            android:id="@+id/company"
+            android:layout_below="@+id/code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/companyName"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/company"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/companyTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/companyName"
+                android:text="武汉仁和胜利车业有限公司"
+                android:layout_below="@+id/code"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textSize="12dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#999"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/companyAdress"
+            android:layout_below="@+id/company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/adress"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@drawable/site"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/adressTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textSize="12dp"
+                android:layout_toRightOf="@+id/adress"
+                android:text="湖北省武汉市北岸区竹叶山中环商贸城C9-11"
+                android:layout_below="@+id/companyName"
+                android:layout_marginLeft="10dp"
+                android:textColor="#999"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f5f5f5"
+            android:layout_below="@+id/companyAdress"
+            />
+
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

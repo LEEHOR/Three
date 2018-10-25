@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item app:inCircle = "false" android:drawable="@drawable/attendance_background">
+
+        <!--<shape-->
+
+            <!--android:shape="oval"-->
+            <!--android:useLevel="false">-->
+
+            <!--&lt;!&ndash; 实心 &ndash;&gt;-->
+            <!--<solid android:color="@color/circular_bg_green"/>-->
+            <!--&lt;!&ndash; 边框 &ndash;&gt;-->
+            <!--<stroke-->
+                <!--android:width="0.5dp"-->
+                <!--android:color="@color/circular_bg_green"/>-->
+            <!--&lt;!&ndash; 圆角 &ndash;&gt;-->
+            <!--<corners android:radius="360dp"/>-->
+            <!--&lt;!&ndash; 边距 &ndash;&gt;-->
+            <!--&lt;!&ndash;<padding-->
+                <!--android:top="1dp"-->
+                <!--android:bottom="1dp"-->
+                <!--android:left="3dp"-->
+                <!--android:right="3dp"/>&ndash;&gt;-->
+            <!--&lt;!&ndash; 大小 &ndash;&gt;-->
+            <!--<size android:width="50dp"-->
+                <!--android:height="50dp" />-->
+        <!--</shape>-->
+
+
+    </item>
+
+
+    <item app:inCircle="true" android:drawable="@drawable/attendance">
+
+        <!--<shape-->
+
+            <!--android:shape="oval"-->
+            <!--android:useLevel="false">-->
+
+            <!--&lt;!&ndash; 实心 &ndash;&gt;-->
+            <!--<solid android:color="@color/circular_bg"/>-->
+            <!--&lt;!&ndash; 边框 &ndash;&gt;-->
+            <!--<stroke-->
+                <!--android:width="0.5dp"-->
+                <!--android:color="@color/circular_bg"/>-->
+            <!--&lt;!&ndash; 圆角 &ndash;&gt;-->
+            <!--<corners android:radius="360dp"/>-->
+            <!--&lt;!&ndash; 边距 &ndash;&gt;-->
+            <!--&lt;!&ndash;<padding-->
+                <!--android:top="1dp"-->
+                <!--android:bottom="1dp"-->
+                <!--android:left="3dp"-->
+                <!--android:right="3dp"/>&ndash;&gt;-->
+            <!--&lt;!&ndash; 大小 &ndash;&gt;-->
+            <!--<size android:width="50dp"-->
+                <!--android:height="50dp" />-->
+        <!--</shape>-->
+
+    </item>
+
+
+</selector>
